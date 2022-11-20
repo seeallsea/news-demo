@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: news-demo
-  namespace: news-demo
+  namespace: ecoent-gcent-gcent
   labels:
     app: news-demo
 spec:
