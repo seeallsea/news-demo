@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: news-demo
-          image: ghcr.io/sm43/news-demo:main
+          image: image-registry.openshift-image-registry.svc:5000/eco-gcdevgroup1-private/news-demo:v0.1
           ports:
             - containerPort: 3000
           env:
